@@ -1,0 +1,47 @@
+To synchronize PyCharm with GitHub, you need to perform a few steps to connect your PyCharm project with a GitHub repository. Here's a general guide:
+
+### 1. Install Git:
+   Make sure Git is installed on your machine. You can download it from [Git Downloads](https://git-scm.com/downloads).
+
+### 2. Create a GitHub Repository:
+   - Go to [GitHub](https://github.com/).
+   - Log in to your account.
+   - Create a new repository.
+
+### 3. Open Your PyCharm Project:
+   Open your PyCharm project that you want to synchronize with GitHub.
+
+### 4. Initialize a Git Repository in PyCharm:
+   - Go to "VCS" in the top menu.
+   - Select "Enable Version Control Integration."
+   - Choose "Git" from the dropdown.
+   - Click "OK."
+
+### 5. Commit Changes:
+   - In PyCharm, go to the "Commit" tool window (usually on the bottom of the screen).
+   - Add files you want to commit.
+   - Enter a commit message.
+   - Click "Commit."
+
+### 6. Add GitHub Remote:
+   - Go to "VCS" in the top menu.
+   - Select "Git" -> "Remotes" -> "Add."
+   - Enter the URL of your GitHub repository.
+   - Click "OK."
+
+### 7. Push Changes to GitHub:
+   - Go to "VCS" in the top menu.
+   - Select "Git" -> "Push."
+   - Choose the remote you added (GitHub).
+   - Click "Push."
+
+### 8. Pull Changes from GitHub (Optional):
+   If you're working in a team or from multiple machines, you might want to pull changes before pushing your own. You can do this through the "VCS" menu.
+
+### 9. Configure PyCharm to Remember GitHub Credentials:
+   - Go to "File" -> "Settings" -> "Version Control" -> "Git."
+   - Check "Remember credentials."
+
+Now, your PyCharm project is synchronized with your GitHub repository. You can continue committing and pushing changes using PyCharm's Git integration.
+
+If you encounter any issues or have specific questions, feel free to ask!
